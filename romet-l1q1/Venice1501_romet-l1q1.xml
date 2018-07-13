@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Questiones metaphysicales auree fundatissimi Egidii Romani Bituricensis archiepiscopi ordinis divi Augustini super libros Metaphysice Aristotelis</title>
+                <author>Aegidius Romanus</author>
+                <editor>Luciana Cioca</editor>
+                <respStmt>
+                    <name>Luciana Cioca</name>
+                    <resp>TEI Encoder</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.0.0-dev">
+                    <date when="2018-07-07">July 07, 2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Scholastic Commentaries and Texts Archive Project</authority>
+                <availability status="free">
+                    <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref></p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="V" n="Venice1501">Venice1501</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+            <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"> </schemaRef>
+            <editorialDecl>
+                <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+                    guidelines for a critical edition</p>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2018-07-07" who="#LC" status="draft" n="0.0.0">
+                    <p>Created file for the first time.</p>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="la">
+        <front>
+            <div xml:id="include-list">
+                <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+                <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+            </div>
+            <div xml:id="starts-on">
+                <pb ed="#V" n="2-r"/>
+                <cb ed="#V" n="a"/>
+            </div>
+        </front>
+        <body>
+            <div xml:id="romet-l1q1">
+                <head>Liber I, Quaestio 1</head>
+                <p><quote>Omnes homines natura scire desiderant</quote> etc. Textus 1.</p>
+                <p>Circa istam scientiam primo queritur utrum metaphysica sit finis vel beatitudo ipsius hominis.</p>
+                <p>Et videtur quod non, quoniam finis est melior his que sunt ad finem. Sed metaphysica non est melior ipso homine. Probatur minor, quia metaphysica est accidens ab extrinseco. Nullum accidens est melius substantia; ergo.</p>
+                <p>Preterea, arguitur sic: non est beatitudo hominis quod non confert ad virtutem. Sed metaphysica non confert ad virtutem; ergo. Maior patet per <name>Philosophum</name> II <title>Moralium</title>, ubi dicit quod <quote>scientia aut parum aut nihil confert ad virtutem</quote>.</p>
+                <p>Preterea, non est beatitudo seu finis ipsius hominis quod potest auferri ab homine. Sed metaphysica potest auferri ab homine; ergo. Maior videtur esse vera. Minor patet per dictum <name>Philosophi</name> III <title>De anima</title>, ubi dicit quod <quote>intellectus non reminiscitur post mortem</quote>, ergo.</p>
+                <p>In oppositum est <name>Philosophus</name> in IV <title>Metaphysice</title>. Quid sit dicendum ad hoc? Breviter dico quod duplex est felicitas seu beatitudo. Est enim quedam felicitas que summe et simpliciter est felicitas sicut illa quam expectamus in futuro post presentem vitam et de ista non intendimus ad presens, nec de ista loquitur <name>Philosophus</name>. Alia est felicitas que summe et simpliciter non est felicitas et est illa que ex puris naturalibus acquiri potest et ista est possibilis in presenti vita et de hac loquitur <name>Philosophus</name> et nos loqui intendimus.</p>
+                <p>Et tunc dico quod ista felicitas seu beatitudo hominis non consistit nisi in ultimo ipsius hominis et cum homo habeat in se duo, scilicet corpus et animam, et in habentibus naturam rectam anima dominatur corpori, sicut dicit <name>Philosophus</name> in I <title>Politicorum</title>. In habentibus naturam perversam corpus dominatur anime, sicut dicit ibidem. Dico ergo quod felicitas hominis non consistit in bonis corporis, sed in bonis anime, sicut dicitur I <title>Moralium</title>. Et cum ipsi anime insint virtutes et potentie, et etiam ipsi habitus. Dico sicut <name>Philosophus</name> ait quod beatitudo hominis non consistit in potentiis anime, quoniam, sicut unus homo habet intellectum et potentias anime, ita et alius homo. Ideo beatitudo non consistit in potentiis anime, nec in habitibus anime, quoniam homo iustus et homo iniustus non differunt penes habitus, sicut dicitur in I <title>Moralium</title> in fine quod <quote>homo felix non differt ab homine misero per dimidium sue vite</quote>, ut patet in dormientibus, ut dicitur ibidem, nisi pertranserit quidam motus, sicut dicit <name>Philosophus</name>. Unde phantasmata hominis felicis meliora sunt quam phantasmata miseri.</p>
+                <p>Et ideo dico quod consistit in operatione anime et hoc dicit <name>Philosophus</name> quod <quote>felicitas est operatio anime et cum felicitas consistit in ultimo ipsius hominis quod est finis et optimum eius, et virtus est ultimum potentie.</quote> Dico ergo quod felicitas est operatio anime secundum virtutem, et cum virtus anime secundum quam consistit felici-<pb ed="#V" n="2-r"/><cb ed="#V" n="b"/>-tas debeat esse regularis inquantum huiusmodi. Omne autem regulans secundum quod huiusmodi est perfectum et omne regulatum est imperfectum. Dico ergo quod felicitas non consistit secundum unamquamque virtutem anime, sed secundum virtutem perfectam. Est igitur felicitas operatio anime secundum virtutem perfectam, ut dicitur I <title>Ethicorum</title> et IV. Et cum sint in nobis duo genera, scilicet agibilia et speculabilia, et secundum hoc habeamus duplicem intellectum, practicum et speculativum. Speculativum cuius est considerare de speciebus tantum et practicum cuius est considerare de agibilibus tantum et propter hoc duplex est virtus intellectualis perfecta et regularis, alia, scilicet prudentia, que regulat et perficit intellectum practicum, et alia, scilicet sapientia, que regulat et perficit intellectum speculativum. Et propter hoc <name>Philosophus</name> distinguit duplicem felicitatem, scilicet politicam et speculativam. Et felicitas politica sive civilis est operatio anime secundum virtutem perfectam, que est prudentia. Felicitas autem speculativa est operatio anime secundum virtutem perfectam, que est sapientia. Et ad istam felicitatem speculativam ordinatur alia felicitas, scilicet civilis; et ideo metaphysica est finis sive beatitudo ipsius hominis, loquendo de felicitate quam potest homo sibi acquirere in hac presenti vita ex puris naturalibus</p>
+                <div>
+                    <head><supplied>Ad rationes</supplied></head>
+                    <p>Tunc ad rationes. Ad primam videtur mihi quod ad solutionem prime rationis distinctio duplex habeat locum dicendo quod duplex est finis: quidam finis qui est per se existens, et talis finis dicitur perfectus non quia sit solum ratio perfectionis aliorum, sed dicitur perfectus quia habet in se ipso perfectionem summam et perfectam. Et talis finis per se existens non est coniunctus agenti, id est non inherens ei cuius est finis, quod est Deus ipse qui est finis aliorum</p>
+                    <p>Est autem alius finis qui non est per se existens, sed est coniunctus agenti et talis finis dicitur perfectus non quia habeat in se perfectionem, sed quia est ratio perfectionis aliorum et perfectio in isto fine et in altero invenitur quasi equivoce et est simile de forma sicut forma dicitur esse ens non quia habeat esse per se, quia tunc generaretur, quod est falsum, nam compositum generatur, sed dicitur esse ens quia est ratio essendi eius cuius est forma.</p>
+                    <p>Est autem alia distinctio, quia, licet bonum dicatur multipliciter, sicut et ens, tamen bonum dicitur secundum rationem contrariam ipsi enti aliquo modo, nam illud quod dat enitatem simpliciter, dat bonitatem secundum quid; et illud quod dat bonitatem simpliciter, dat enitatem secundum quid, sicut patet <title>De anima</title>. Nam anima dat entitatem simpliciter, dat tamen bonitatem secundum quid. Nam ex hoc quod homo est homo non habet quod sit bonus simpliciter, sed secundum quid, unde non diciur de homine virtuoso quod sit bonus sine additione, sed quod est bonus eo quod est homo. Sed ipse virtutes, sicut prudentia et sapientia, dant bonitatem simpliciter et entitatem secundum quid. Nam ex hoc quod homo est iustus vel prudens non habet homo entitatem simpliciter, sed secundum quid.</p>
+                    <p>Tunc ad propositum. Quando tu dicis <mentioned>finis est melior his que sunt ad finem</mentioned>, dico quod, si tu comparas finem qui est per se existens vel habens perfectionem in se ipso ad ipsum hominem, bene concludit ratio, quoniam talis finis melior est ipso homine et omnibus aliis que ordinantur ad ipsum. Si autem velis comparare finem ipsius hominis qui est perfectus non quia habeat perfectionem in se ipso, sed quia est ratio perfectionis ipsius hominis, tunc, cum homo habeat perfectionem in se ipso, finis habeat perfectionem quasi equivoce, dico quod male comparas, quia non debet fieri comparatio nisi inter univoca. Si autem non comparas ipsum hominem ad suum finem, sed comparas ipsam ani-<pb ed="#V" n="2-v"/><cb ed="#V" n="a"/>-mam non ut est substantia in se perfectionem habens, sed ut est ratio perfectionis solum ad ipsum finem. Tunc ad hoc valet secunda distinctio, nam ipsa anima habet entitatem simpliciter et bonitatem secundum quid, ipsa metaphysica sive beatitudo habet bonitatem simpliciter et entitatem secundum quid, et hoc modo est inconveniens.</p>
+                    <p>Ad secundum patet solutio. Cum tu dicis <mentioned>illud non est beatitudo hominis sive felicitas quod parum confert ad virtutem</mentioned>, dico quod non quecumque scientia confert ad virtutem, sicut scire quid sit iustitia, quid castitas, unde multi sunt qui nolunt scire quid est castitas,quid iustitia, nolunt tamen comparare simul, sed sunt similes infirmis volentibus audire consilia medicorum, nolentibus tamen facere secundum consilia eorum. Et de istis dicit <name>Philosophus</name> quod, sicut isti non habent corpus bene dispositum ad audiendum consilia medicorum, sic nec alii habent bonam dispositionem, quia volunt scire quid sit virtus, scilicet iustitia, quid castitas, et tamen nolunt comparare secundum hec. Sed ipsa felicitas sive metaphysica est ipsa virtus, ideo non concludit ratio nisi de virtutibus moralibus et non intellectualibus cuiusmodi est metaphysica.</p>
+                    <p>Ad aliud. Cum tu arguis <mentioned>potest auferri ab homine, ergo etc.</mentioned>, tu bene arguis quod non sit summa et perfecta felicitas. Sed quod non sit feicitas quam homo acquirere posset ex puris naturalibus tu non arguis.</p>
+                    <p>Et ista sufficiant de questione.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+
