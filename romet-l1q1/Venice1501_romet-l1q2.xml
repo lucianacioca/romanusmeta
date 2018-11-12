@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Questiones metaphysicales auree fundatissimi Egidii Romani Bituricensis archiepiscopi ordinis divi Augustini super libros Metaphysice Aristotelis</title>
+                <author>Aegidius Romanus</author>
+                <editor>Luciana Cioca</editor>
+                <respStmt>
+                    <name>Luciana Cioca</name>
+                    <resp>TEI Encoder</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.0.0-dev">
+                    <date when="2018-07-07">November 12, 2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Scholastic Commentaries and Texts Archive Project</authority>
+                <availability status="free">
+                    <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref></p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="V" n="Venice1501">Venice1501</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+            <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"> </schemaRef>
+            <editorialDecl>
+                <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+                    guidelines for a critical edition</p>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2018-11-12" who="#LC" status="draft" n="0.0.0">
+                    <p>Created file for the first time.</p>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="la">
+        <front>
+            <div xml:id="include-list">
+                <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+                <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+            </div>
+            <div xml:id="starts-on">
+                <pb ed="#V" n="2-v"/>
+                <cb ed="#V" n="a"/>
+            </div>
+        </front>
+        <body>
+            <div xml:id="romet-l1q2">
+                <head>Liber I, Quaestio 2</head>
+                <p>Queritur utrum unumquodque naturaliter feratur in suum finem.</p>
+                <p>Et videtur quod non. Dicit enim <name>Aristoteles</name> in 3 <title>Moralium</title> ponens differentiam inter voluntatem et electionem quod <quote>voluntas est finis; electio est eorum que sunt ad finem.</quote> Est enim electio quasi conclusio et finis consilii postquam homo consiliatus est quod sit eligendum de aliquo. Tunc eligit alteram partem et eam prosequitur.</p>
+                <p>Ex hoc arguitur sic: si ergo voluntas differt a natura, tunc agere voluntatis differt ab agere nature, et ulterius desiderare ipsius voluntatis differt a desiderare ipsius nature. Cum ergo naturaliter suum finem desideret voluntas, igitur non naturaliter desiderat suum finem, sed voluntarie, ergo.</p>
+                <p>Preterea, <name>Philosophus</name> 9 <title>Metaphysice</title> distinguit potentias naturales a potentiis rationalibus et dicit ibidem quod <quote>potentie naturales determinate se habent ad unum, potentie vero rationales se habent ad opposita.</quote> Si ergo potentie naturales differunt a potentiis rationalibus, ergo et agere potentiarum naturalium differt ab agere potentiarum rationalium, quia potentie naturales agunt naturaliter, potentie vero rationales agunt rationabiliter, cum ergo voluntas sit potentia rationalis voluntas desiderabit rationabiliter.</p>
+                <p>In oppositum est <name>Aristoteles</name> 3 <title>Moralium</title>, ubi dicit quod <quote>unumquodque naturaliter vult finem suum.</quote> Ad intelligentiam huius questionis est primo intelligendum quod duplex est finis, nam omnis finis movet per cognitionem: aut per cognitionem que est in ipso fine, aut per cognitionem que est in eo quod movetur. Verbi gratia: primum principium sive prima causa, que indidit tales naturas ipsis rebus ut tendant directe in suum finem est finis omnium movens alias res per cognitionem que est in ipso. Unde, sicut contingit arguere quod est aliquis sagittator cognoscens ipsum signum et dirigens ipsam sagittam in ipsum signum, cum sagitta signum non cognoscat ex hoc quod vadit directe in signum, sic in rebus nature contingit quod cum nature particulares non cognoscant ipsum finem ut directe tendant in ipsum. Contingit arguere et demonstrare quod est aliquod universale dirigens naturas particulares in suos fines et ipsos cognoscens, sicut architenens signum cognoscit et talis finis est prima causa et est finis omnium et istum finem omnia appetunt et desiderant. Et de isto fine non est presens intentio, sed de alio fine qui movet per cognitionem que est in mobili est <pb ed="#V" n="2-v"/><cb ed="#V" n="b"/> presens intentio, sicut patet in his que rationabilia sunt: pomum movet hominem non per cognitionem que est in ipso, sed per cognitionem que in homine. Utrum scilicet unum quodque rationale feratur ad suum finem.</p>
+                <p>Ad intelligentiam huius est intelligendum quod tres propositiones solent dici de natura.</p>
+                <p>Prima est quod illud quod est naturale non admittit suum contrarium, sicut ait <name>Philosophus</name> in <title>Predicamentis</title> quod cui unum contrariorum inest naturaliter sibi oppositum contingere non potest.</p>
+                <p>Alia propositio est quod illud quod est a natura est uno modo et non pluribus modis.</p>
+                <p>Tertia propositio est quod per illud quod est naturale sive a natura non acquirimus illud quod non inest nobis a natura, sicut ea que facimus per artem sicut per manum que est organum organorum, ut patet 3 <title>De anima</title>: <quote>Nos non acquirimus nobis illa que insunt per artem.</quote></p>
+                <p>Ulterius est intelligendum quod differentia est inter finem et ea que sunt ad finem, sicut ostendit <name>Philosophus</name> in 1 <title>Politicorum</title> et est valde notabile. Dicit ibi quod finis appetibilis est in infinitum. Non enim introducit medicus aliquam sanitatem in infirmo quando adhuc meliorem vellet introducere, sed ea que sunt ad finem non sunt appetibilia in infinitum, sed appetuntur secundum proportionem et ordinem quem habent ad finem, ut patet de medico, nam medicus non dat infirmo quamcumque potionem sive flebotomiam quam posset sibi dare, sed secundum quod est necessarium ad finem consequendum, scilicet ad sanitatem. Ideo finis est appetibilis in infinitum, ea que sunt ad finem non.</p>
+                <p>Ex ista differentia potest patere triplex differentia inter finem et ea que sunt ad finem, quoniam ex hoc quod finis est appetibilis in infinitum ea que sunt ad finem non sequitur quod finis non admittit contrarium; ea que sunt ad finem, cum non sint appetibilia in infinitum, per omnem modum appetibilitatis bene admittunt contrarium.</p>
+                <p>Ulterius sequitur quod, si finis non admittit contrarium semper uno modo de habeat.</p>
+                <p>Ulterius est intelligendum quod finis habet rationem principii, ea que sunt ad finem rationem habent contrarium, et sicut conclusiones non habent omnem modum veritatis, sed contingit dubitare in ipsis principia autem habent omnem modum veritatis, sic finis ex eo quod habet rationem principii habet per omnem modum quod sit appetibilis in infinitum; ea que sunt ad finem, cum habeant rationem contrariis, non sunt appetibilia in infinitum</p>
+                <p>Ex hoc sequitur quod per finem acquirimus ea que sunt ad finem, sicut per aliquod naturale acquirimus illud quod inest nobis per artem, cum ergo finis conveniat in illis tribus propositionibus cum natura.</p>
+                <p>Dicendum est quod unum quodque naturaliter fertur in suum finem, licet non sit ita per omnem modum naturalitatis, sicut in rebus naturalibus. Propter hoc adducta fuit prima distinctio de fine.</p>
+                <p>Tunc ad argumentum dicendum est quod volunas potest dupliciter considerari vel secundum quod natura, vel secundum quod ratio. Si consideretur secundum quod ratio, cum non contingat arguere, nec ratiocinari, nec sillogicare de ipso fine, sed de his que sunt ad finem.</p>
+                <p>Dicendum quod voluntas sic considerata non tendit in ipsum finem. Voluntas tamen consideratur secundum quod natura tendit in finem.</p>
+                <p>Ad aliam rationem patet solutio per ea que dicta sunt.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
